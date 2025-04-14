@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: wordpress-site
+    env: docker
+    dockerfilePath: ./Dockerfile
